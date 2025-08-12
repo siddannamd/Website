@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Calculating ROI for Predictive Maintenance in Discrete Manufacturing</title>
+    <meta name="description" content="A simple model to evaluate downtime costs, false positive impacts, and maintenance crew constraints for predictive maintenance." />
+    <link rel="canonical" href="https://www.example.com/blog/predictive-maintenance-roi.html" />
+    <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Calculating ROI for Predictive Maintenance in Discrete Manufacturing",
+        "author": { "@type": "Organization", "name": "NeuroForge AI" },
+        "datePublished": "2025-08-01",
+        "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?auto=format&fit=crop&w=1600&q=80",
+        "publisher": { "@type": "Organization", "name": "NeuroForge AI", "logo": {"@type":"ImageObject","url":"https://www.example.com/assets/logo.svg"} }
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Orbitron:wght@600;800&display=swap" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = { theme: { extend: { fontFamily: { sans: ['Inter','ui-sans-serif','system-ui'], display: ['Orbitron','Inter'] } } } }
+    </script>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body class="bg-slate-950 text-slate-100 antialiased">
+    <header class="sticky top-0 z-40 backdrop-blur supports-[backdrop-filter]:bg-slate-900/60">
+      <div class="mx-auto max-w-7xl px-6 py-4 flex items-center justify-between">
+        <a href="/" class="flex items-center gap-3">
+          <img src="/assets/logo.svg" class="h-8 w-8" alt="NeuroForge AI logo" />
+          <span class="font-display text-xl tracking-wider">NeuroForge AI</span>
+        </a>
+        <nav class="hidden md:flex items-center gap-8 text-sm">
+          <a href="/blog/" class="hover:text-brand-400">Blog</a>
+          <a href="/index.html#contact" class="hover:text-brand-400">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <article class="mx-auto max-w-3xl px-6 py-12 md:py-16">
+        <header>
+          <p class="text-sm text-brand-300">Predictive Maintenance</p>
+          <h1 class="mt-2 font-display text-3xl md:text-4xl font-extrabold">Calculating ROI for Predictive Maintenance in Discrete Manufacturing</h1>
+          <p class="mt-3 text-slate-400 text-sm">By NeuroForge AI • Aug 1, 2025 • 6 min read</p>
+        </header>
+        <section class="prose prose-invert prose-slate mt-8">
+          <p>When planning a predictive maintenance (PdM) program, the most important question is simple: will it pay off?</p>
+          <p>This article provides a lightweight ROI model that balances <strong>downtime costs</strong>, <strong>false positive impacts</strong>, and <strong>crew constraints</strong>.</p>
+          <h2>Assumptions</h2>
+          <ul>
+            <li>Average downtime cost per hour</li>
+            <li>Historical failure rate and mean time to repair</li>
+            <li>Model precision and recall</li>
+          </ul>
+          <h2>Quick formula</h2>
+          <pre><code>ROI = (Avoided Downtime Cost - PdM Operating Cost - False Positive Cost) / Investment</code></pre>
+          <p>We recommend sensitivity analysis across precision/recall and crew availability.</p>
+        </section>
+      </article>
+    </main>
+
+    <footer class="border-t border-white/10">
+      <div class="mx-auto max-w-7xl px-6 py-10 text-sm text-slate-400">© <span id="year"></span> NeuroForge AI</div>
+    </footer>
+    <script src="/scripts.js" defer></script>
+  </body>
+</html>
