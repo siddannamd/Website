@@ -1,0 +1,13 @@
+html { scroll-behavior: smooth; }
+
+/***** Reduced motion *****/
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; transition-duration: 0.001ms !important; }
+}
+
+/***** View transitions for route-like anchors *****/
+:root { view-transition-name: root; }
+
+/***** Minimal fade-up reveal *****/
+.reveal { opacity: 0; transform: translateY(10px); transition: opacity .6s ease, transform .6s ease; }
+.reveal.is-visible { opacity: 1; transform: translateY(0); }
